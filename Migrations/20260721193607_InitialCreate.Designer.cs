@@ -12,18 +12,164 @@ using smartApi.Data;
 namespace smartApi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260710181342_eloading_migration2")]
-    partial class eloading_migration2
+    [Migration("20260721193607_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "10.0.9")
+                .HasAnnotation("ProductVersion", "10.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
+
+            modelBuilder.Entity("smartApi.Entity.LoginActivity", b =>
+                {
+                    b.Property<long>("LoginActivityId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("LoginActivityId"));
+
+                    b.Property<string>("AttemptedIdentifier")
+                        .HasColumnType("text");
+
+                    b.Property<string>("BrowserName")
+                        .HasColumnType("text");
+
+                    b.Property<Guid?>("CorrelationId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("text");
+
+                    b.Property<string>("DeviceType")
+                        .HasColumnType("text");
+
+                    b.Property<string>("EventType")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("FailureCode")
+                        .HasColumnType("text");
+
+                    b.Property<string>("IpAddress")
+                        .HasColumnType("text");
+
+                    b.Property<Guid?>("LoginChallengeId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("OccurredAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("OperatingSystem")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Outcome")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("UserAgent")
+                        .HasColumnType("text");
+
+                    b.Property<long?>("UserDeviceId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long?>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<Guid?>("UserSessionId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("LoginActivityId");
+
+                    b.HasIndex("LoginChallengeId");
+
+                    b.HasIndex("UserDeviceId");
+
+                    b.HasIndex("UserId");
+
+                    b.HasIndex("UserSessionId");
+
+                    b.ToTable("LoginActivities");
+                });
+
+            modelBuilder.Entity("smartApi.Entity.LoginChallenge", b =>
+                {
+                    b.Property<Guid>("LoginChallengeId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("login_challenge_id");
+
+                    b.Property<DateTime?>("CompletedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("completed_at");
+
+                    b.Property<Guid>("ConcurrencyToken")
+                        .IsConcurrencyToken()
+                        .HasColumnType("uuid")
+                        .HasColumnName("concurrency_token");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_at");
+
+                    b.Property<string>("CreatedByIp")
+                        .HasMaxLength(45)
+                        .HasColumnType("character varying(45)")
+                        .HasColumnName("created_by_ip");
+
+                    b.Property<DateTime>("ExpiresAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("expires_at");
+
+                    b.Property<DateTime?>("LastOtpSentAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("last_otp_sent_at");
+
+                    b.Property<int>("ResendCount")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0)
+                        .HasColumnName("resend_count");
+
+                    b.Property<DateTime?>("RevokedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("revoked_at");
+
+                    b.Property<string>("RevokedReason")
+                        .HasMaxLength(150)
+                        .HasColumnType("character varying(150)")
+                        .HasColumnName("revoked_reason");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)")
+                        .HasColumnName("status");
+
+                    b.Property<string>("UserAgent")
+                        .HasColumnType("text")
+                        .HasColumnName("user_agent");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("LoginChallengeId");
+
+                    b.HasIndex("ExpiresAt")
+                        .HasDatabaseName("ix_login_challenges_expires_at");
+
+                    b.HasIndex("Status", "ExpiresAt")
+                        .HasDatabaseName("ix_login_challenges_status_expires_at");
+
+                    b.HasIndex("UserId", "Status")
+                        .HasDatabaseName("ix_login_challenges_user_id_status");
+
+                    b.ToTable("login_challenges", (string)null);
+                });
 
             modelBuilder.Entity("smartApi.Entity.RefreshToken", b =>
                 {
@@ -93,6 +239,10 @@ namespace smartApi.Migrations
                         .HasColumnType("bigint")
                         .HasColumnName("user_id");
 
+                    b.Property<Guid?>("UserSessionId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("user_session_id");
+
                     b.HasKey("RefreshTokenId");
 
                     b.HasIndex("ExpiresAt")
@@ -109,6 +259,9 @@ namespace smartApi.Migrations
                     b.HasIndex("TokenHash")
                         .IsUnique()
                         .HasDatabaseName("uq_refresh_tokens_token_hash");
+
+                    b.HasIndex("UserSessionId")
+                        .HasDatabaseName("idx_refresh_tokens_user_session");
 
                     b.HasIndex("TokenHash", "ExpiresAt")
                         .HasDatabaseName("idx_refresh_tokens_token_lookup");
@@ -263,6 +416,9 @@ namespace smartApi.Migrations
                         .HasColumnType("character varying(20)")
                         .HasColumnName("phone_number");
 
+                    b.Property<int>("SecurityVersion")
+                        .HasColumnType("integer");
+
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("updated_at");
@@ -340,6 +496,148 @@ namespace smartApi.Migrations
                     b.ToTable("user_credentials", (string)null);
                 });
 
+            modelBuilder.Entity("smartApi.Entity.UserDevice", b =>
+                {
+                    b.Property<long>("UserDeviceId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasColumnName("user_device_id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("UserDeviceId"));
+
+                    b.Property<string>("BrowserName")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)")
+                        .HasColumnName("browser_name");
+
+                    b.Property<string>("BrowserVersion")
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)")
+                        .HasColumnName("browser_version");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_at")
+                        .HasDefaultValueSql("now()");
+
+                    b.Property<DateTime?>("DeactivatedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("deactivated_at");
+
+                    b.Property<string>("DeactivationReason")
+                        .HasMaxLength(150)
+                        .HasColumnType("character varying(150)")
+                        .HasColumnName("deactivation_reason");
+
+                    b.Property<string>("DeviceFingerprintHash")
+                        .IsRequired()
+                        .HasMaxLength(512)
+                        .HasColumnType("character varying(512)")
+                        .HasColumnName("device_fingerprint_hash");
+
+                    b.Property<string>("DeviceName")
+                        .HasMaxLength(150)
+                        .HasColumnType("character varying(150)")
+                        .HasColumnName("device_name");
+
+                    b.Property<string>("DeviceType")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)")
+                        .HasDefaultValue("UNKNOWN")
+                        .HasColumnName("device_type");
+
+                    b.Property<DateTime>("FirstSeenAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("first_seen_at")
+                        .HasDefaultValueSql("now()");
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true)
+                        .HasColumnName("is_active");
+
+                    b.Property<bool>("IsTrusted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false)
+                        .HasColumnName("is_trusted");
+
+                    b.Property<string>("LastIpAddress")
+                        .HasMaxLength(45)
+                        .HasColumnType("character varying(45)")
+                        .HasColumnName("last_ip_address");
+
+                    b.Property<DateTime>("LastSeenAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("last_seen_at")
+                        .HasDefaultValueSql("now()");
+
+                    b.Property<string>("LastUserAgent")
+                        .HasColumnType("text")
+                        .HasColumnName("last_user_agent");
+
+                    b.Property<string>("OperatingSystem")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)")
+                        .HasColumnName("operating_system");
+
+                    b.Property<string>("OperatingSystemVersion")
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)")
+                        .HasColumnName("operating_system_version");
+
+                    b.Property<DateTime?>("TrustExpiresAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("trust_expires_at");
+
+                    b.Property<DateTime?>("TrustRevokedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("trust_revoked_at");
+
+                    b.Property<string>("TrustRevokedReason")
+                        .HasMaxLength(150)
+                        .HasColumnType("character varying(150)")
+                        .HasColumnName("trust_revoked_reason");
+
+                    b.Property<DateTime?>("TrustedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("trusted_at");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("updated_at");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("UserDeviceId");
+
+                    b.HasIndex("LastSeenAt")
+                        .HasDatabaseName("idx_user_devices_last_seen");
+
+                    b.HasIndex("TrustExpiresAt")
+                        .HasDatabaseName("idx_user_devices_trust_expiry");
+
+                    b.HasIndex("UserId", "DeviceFingerprintHash")
+                        .IsUnique()
+                        .HasDatabaseName("uq_user_devices_user_fingerprint");
+
+                    b.HasIndex("UserId", "IsActive")
+                        .HasDatabaseName("idx_user_devices_user_active");
+
+                    b.HasIndex("UserId", "IsTrusted")
+                        .HasDatabaseName("idx_user_devices_user_trusted");
+
+                    b.ToTable("user_devices", (string)null);
+                });
+
             modelBuilder.Entity("smartApi.Entity.UserRole", b =>
                 {
                     b.Property<long>("UserRoleId")
@@ -395,6 +693,154 @@ namespace smartApi.Migrations
                     b.ToTable("user_roles", (string)null);
                 });
 
+            modelBuilder.Entity("smartApi.Entity.UserSession", b =>
+                {
+                    b.Property<Guid>("UserSessionId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("user_session_id");
+
+                    b.Property<string>("AuthenticationLevel")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)")
+                        .HasDefaultValue("PASSWORD_OTP")
+                        .HasColumnName("authentication_level");
+
+                    b.Property<string>("AuthenticationMethods")
+                        .HasMaxLength(150)
+                        .HasColumnType("character varying(150)")
+                        .HasColumnName("authentication_methods");
+
+                    b.Property<Guid>("ConcurrencyToken")
+                        .IsConcurrencyToken()
+                        .HasColumnType("uuid")
+                        .HasColumnName("concurrency_token");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_at")
+                        .HasDefaultValueSql("now()");
+
+                    b.Property<DateTime>("ExpiresAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("expires_at");
+
+                    b.Property<DateTime>("LastActivityAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("last_activity_at")
+                        .HasDefaultValueSql("now()");
+
+                    b.Property<string>("LastIpAddress")
+                        .HasMaxLength(45)
+                        .HasColumnType("character varying(45)")
+                        .HasColumnName("last_ip_address");
+
+                    b.Property<string>("LastUserAgent")
+                        .HasColumnType("text")
+                        .HasColumnName("last_user_agent");
+
+                    b.Property<DateTime?>("LoggedOutAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("logged_out_at");
+
+                    b.Property<DateTime>("LoginAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("login_at")
+                        .HasDefaultValueSql("now()");
+
+                    b.Property<Guid?>("LoginChallengeId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("login_challenge_id");
+
+                    b.Property<string>("LoginIpAddress")
+                        .HasMaxLength(45)
+                        .HasColumnType("character varying(45)")
+                        .HasColumnName("login_ip_address");
+
+                    b.Property<string>("LoginUserAgent")
+                        .HasColumnType("text")
+                        .HasColumnName("login_user_agent");
+
+                    b.Property<string>("LogoutReason")
+                        .HasMaxLength(150)
+                        .HasColumnType("character varying(150)")
+                        .HasColumnName("logout_reason");
+
+                    b.Property<bool>("OtpVerified")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false)
+                        .HasColumnName("otp_verified");
+
+                    b.Property<DateTime?>("OtpVerifiedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("otp_verified_at");
+
+                    b.Property<DateTime?>("RevokedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("revoked_at");
+
+                    b.Property<string>("RevokedBy")
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)")
+                        .HasColumnName("revoked_by");
+
+                    b.Property<string>("RevokedReason")
+                        .HasMaxLength(150)
+                        .HasColumnType("character varying(150)")
+                        .HasColumnName("revoked_reason");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(30)
+                        .HasColumnType("character varying(30)")
+                        .HasDefaultValue("ACTIVE")
+                        .HasColumnName("status");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("updated_at");
+
+                    b.Property<long>("UserDeviceId")
+                        .HasColumnType("bigint")
+                        .HasColumnName("user_device_id");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("UserSessionId");
+
+                    b.HasIndex("ExpiresAt")
+                        .HasDatabaseName("idx_user_sessions_expiry");
+
+                    b.HasIndex("LastActivityAt")
+                        .HasDatabaseName("idx_user_sessions_last_activity");
+
+                    b.HasIndex("LoginChallengeId")
+                        .IsUnique()
+                        .HasDatabaseName("uq_user_sessions_login_challenge");
+
+                    b.HasIndex("RevokedAt")
+                        .HasDatabaseName("idx_user_sessions_revoked");
+
+                    b.HasIndex("UserDeviceId", "Status")
+                        .HasDatabaseName("idx_user_sessions_device_status");
+
+                    b.HasIndex("UserId", "ExpiresAt")
+                        .HasDatabaseName("idx_user_sessions_user_expiry");
+
+                    b.HasIndex("UserId", "Status")
+                        .HasDatabaseName("idx_user_sessions_user_status");
+
+                    b.ToTable("user_sessions", (string)null);
+                });
+
             modelBuilder.Entity("smartApi.Entity.email_otp_tokens", b =>
                 {
                     b.Property<long>("EmailOtpTokenId")
@@ -428,6 +874,10 @@ namespace smartApi.Migrations
                     b.Property<DateTime?>("LastSentAt")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("last_sent_at");
+
+                    b.Property<Guid?>("LoginChallengeId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("login_challenge_id");
 
                     b.Property<int>("MaxAttempts")
                         .ValueGeneratedOnAdd()
@@ -494,6 +944,9 @@ namespace smartApi.Migrations
                     b.HasIndex("SentToEmail")
                         .HasDatabaseName("idx_email_otp_tokens_sent_to_email");
 
+                    b.HasIndex("LoginChallengeId", "Purpose")
+                        .HasDatabaseName("ix_email_otp_tokens_challenge_id_purpose");
+
                     b.HasIndex("UserId", "Purpose", "ExpiresAt")
                         .HasDatabaseName("idx_email_otp_tokens_user_purpose_expiry");
 
@@ -504,6 +957,48 @@ namespace smartApi.Migrations
                         .HasDatabaseName("idx_email_otp_tokens_lookup");
 
                     b.ToTable("email_otp_tokens", (string)null);
+                });
+
+            modelBuilder.Entity("smartApi.Entity.LoginActivity", b =>
+                {
+                    b.HasOne("smartApi.Entity.LoginChallenge", "LoginChallenge")
+                        .WithMany("LoginActivities")
+                        .HasForeignKey("LoginChallengeId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.HasOne("smartApi.Entity.UserDevice", "UserDevice")
+                        .WithMany("LoginActivities")
+                        .HasForeignKey("UserDeviceId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.HasOne("smartApi.Entity.User", "User")
+                        .WithMany("LoginActivities")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.HasOne("smartApi.Entity.UserSession", "UserSession")
+                        .WithMany("LoginActivities")
+                        .HasForeignKey("UserSessionId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("LoginChallenge");
+
+                    b.Navigation("User");
+
+                    b.Navigation("UserDevice");
+
+                    b.Navigation("UserSession");
+                });
+
+            modelBuilder.Entity("smartApi.Entity.LoginChallenge", b =>
+                {
+                    b.HasOne("smartApi.Entity.User", "User")
+                        .WithMany("LoginChallenges")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("smartApi.Entity.RefreshToken", b =>
@@ -519,9 +1014,16 @@ namespace smartApi.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("smartApi.Entity.UserSession", "UserSession")
+                        .WithMany("RefreshTokens")
+                        .HasForeignKey("UserSessionId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.Navigation("ReplacedByToken");
 
                     b.Navigation("User");
+
+                    b.Navigation("UserSession");
                 });
 
             modelBuilder.Entity("smartApi.Entity.UserCredential", b =>
@@ -529,6 +1031,17 @@ namespace smartApi.Migrations
                     b.HasOne("smartApi.Entity.User", "User")
                         .WithOne("Credential")
                         .HasForeignKey("smartApi.Entity.UserCredential", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("smartApi.Entity.UserDevice", b =>
+                {
+                    b.HasOne("smartApi.Entity.User", "User")
+                        .WithMany("UserDevices")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -568,15 +1081,57 @@ namespace smartApi.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("smartApi.Entity.UserSession", b =>
+                {
+                    b.HasOne("smartApi.Entity.LoginChallenge", "LoginChallenge")
+                        .WithOne("UserSession")
+                        .HasForeignKey("smartApi.Entity.UserSession", "LoginChallengeId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("smartApi.Entity.UserDevice", "UserDevice")
+                        .WithMany("UserSessions")
+                        .HasForeignKey("UserDeviceId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("smartApi.Entity.User", "User")
+                        .WithMany("UserSessions")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("LoginChallenge");
+
+                    b.Navigation("User");
+
+                    b.Navigation("UserDevice");
+                });
+
             modelBuilder.Entity("smartApi.Entity.email_otp_tokens", b =>
                 {
+                    b.HasOne("smartApi.Entity.LoginChallenge", "LoginChallenge")
+                        .WithMany("OtpTokens")
+                        .HasForeignKey("LoginChallengeId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.HasOne("smartApi.Entity.User", "User")
                         .WithMany("EmailOtpTokens")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("LoginChallenge");
+
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("smartApi.Entity.LoginChallenge", b =>
+                {
+                    b.Navigation("LoginActivities");
+
+                    b.Navigation("OtpTokens");
+
+                    b.Navigation("UserSession");
                 });
 
             modelBuilder.Entity("smartApi.Entity.RefreshToken", b =>
@@ -597,11 +1152,33 @@ namespace smartApi.Migrations
 
                     b.Navigation("EmailOtpTokens");
 
+                    b.Navigation("LoginActivities");
+
+                    b.Navigation("LoginChallenges");
+
                     b.Navigation("RefreshTokens");
 
                     b.Navigation("RevokedUserRoles");
 
+                    b.Navigation("UserDevices");
+
                     b.Navigation("UserRoles");
+
+                    b.Navigation("UserSessions");
+                });
+
+            modelBuilder.Entity("smartApi.Entity.UserDevice", b =>
+                {
+                    b.Navigation("LoginActivities");
+
+                    b.Navigation("UserSessions");
+                });
+
+            modelBuilder.Entity("smartApi.Entity.UserSession", b =>
+                {
+                    b.Navigation("LoginActivities");
+
+                    b.Navigation("RefreshTokens");
                 });
 #pragma warning restore 612, 618
         }
