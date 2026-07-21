@@ -1,0 +1,25 @@
+@smartApi_HostAddress = http://localhost:5082
+
+POST {{smartApi_HostAddress}}/api/auth/register
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "username": "testuser",
+  "password": "Test123!",
+  "fullName": "Test User"
+}
+
+###
+
+POST {{smartApi_HostAddress}}/api/auth/reset-password
+Content-Type: application/json
+
+{
+  "email": "laxman.shahj24@cps.edu.np",
+  "otp": "652334",
+  "newPassword": "Test123!",
+  "confirmPassword": "Test123!"
+}
+
+###

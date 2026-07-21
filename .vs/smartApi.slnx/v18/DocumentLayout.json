@@ -1,0 +1,1786 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\profile\\requests\\changepasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\profile\\requests\\changepasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\requests\\resetpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\requests\\resetpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\requests\\forgotpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\requests\\forgotpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\profile\\requests\\updateprofilerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\profile\\requests\\updateprofilerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\profile\\responses\\myprofileresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\profile\\responses\\myprofileresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\profile\\responses\\changepasswordresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\profile\\responses\\changepasswordresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\data\\configuration\\refreshtokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:data\\configuration\\refreshtokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\entity\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:entity\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\migrations\\20260719090904_addrefreshtokenusersessionrelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:migrations\\20260719090904_addrefreshtokenusersessionrelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\enums\\loginchallengestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:enums\\loginchallengestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\data\\configuration\\usersessionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:data\\configuration\\usersessionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\entity\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:entity\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\enums\\accountstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:enums\\accountstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\utility\\device_information\\currentuserhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:utility\\device_information\\currentuserhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\utility\\device_information\\requestinformationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:utility\\device_information\\requestinformationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\utility\\device_information\\devicefingerprinthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:utility\\device_information\\devicefingerprinthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\utility\\device_information\\deviceinformationparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:utility\\device_information\\deviceinformationparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\utility\\device_information\\deviceinformationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:utility\\device_information\\deviceinformationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\responses\\loginactivityresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\responses\\loginactivityresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\responses\\pagedloginactivityresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\responses\\pagedloginactivityresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\responses\\usersessionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\responses\\usersessionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\requests\\verifyregisterotprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\requests\\verifyregisterotprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\requests\\verifyloginotprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\requests\\verifyloginotprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\requests\\revokesessionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\requests\\revokesessionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\requests\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\requests\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\requests\\logoutrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\requests\\logoutrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\requests\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\requests\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\requests\\loginactivityqueryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\requests\\loginactivityqueryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\smartapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:smartapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\migrations\\20260718054911_addsessiondeviceloginactivitymanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:migrations\\20260718054911_addsessiondeviceloginactivitymanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\data\\configuration\\loginactivityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:data\\configuration\\loginactivityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\data\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:data\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\data\\configuration\\userdeviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:data\\configuration\\userdeviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\entity\\loginchallenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:entity\\loginchallenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\entity\\loginactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:entity\\loginactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\entity\\userdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:entity\\userdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\utility\\configurations\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:utility\\configurations\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\utility\\configurations\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:utility\\configurations\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\data\\configuration\\loginchallengeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:data\\configuration\\loginchallengeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\services\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\services\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\services\\interfaces\\iotpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\services\\interfaces\\iotpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\responses\\resendloginotpresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\responses\\resendloginotpresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\responses\\loginstep1responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\responses\\loginstep1responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\requests\\resendloginotprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\requests\\resendloginotprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\utility\\configurations\\twofactorauthenticationoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:utility\\configurations\\twofactorauthenticationoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\data\\configuration\\emailotptokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:data\\configuration\\emailotptokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\data\\configuration\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:data\\configuration\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\entity\\email_otp_tokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:entity\\email_otp_tokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\responses\\verifyregisterotpresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\responses\\verifyregisterotpresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\users\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\users\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\responses\\registerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\responses\\registerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\responses\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\responses\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\responses\\logoutresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\responses\\logoutresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\responses\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\responses\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\authentication\\dtos\\auth\\requests\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:authentication\\dtos\\auth\\requests\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\handlers\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\handlers\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\common\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\common\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\utility\\passwordhasher_security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:utility\\passwordhasher_security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\utility\\passwordhasher_security\\passwordhashresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:utility\\passwordhasher_security\\passwordhashresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\utility\\passwordhasher_security\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:utility\\passwordhasher_security\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\models\\errorproblemdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\models\\errorproblemdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\domain\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\domain\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\utility\\common_api_response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:utility\\common_api_response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\constants\\errorcodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\constants\\errorcodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\constants\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\constants\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\handlers\\infrastructureexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\handlers\\infrastructureexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\handlers\\securityexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\handlers\\securityexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\handlers\\validationexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\handlers\\validationexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\handlers\\domainexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\handlers\\domainexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\security\\authenticationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\security\\authenticationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\infrastructure\\databaseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\infrastructure\\databaseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\base\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\base\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\common\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\common\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\common\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\common\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\common\\forbiddenexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\common\\forbiddenexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\common\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\common\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\domain\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\domain\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\domain\\businessruleexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\domain\\businessruleexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\infrastructure\\externalserviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\infrastructure\\externalserviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\infrastructure\\infrastructureexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\infrastructure\\infrastructureexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\security\\authorizationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\security\\authorizationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\exceptionhandling\\exceptions\\security\\securityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:exceptionhandling\\exceptions\\security\\securityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\entity\\usercredential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:entity\\usercredential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\migrations\\20260630135426_configuratio_divide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:migrations\\20260630135426_configuratio_divide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\data\\configuration\\usercredentialconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:data\\configuration\\usercredentialconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\data\\configuration\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:data\\configuration\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\entity\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:entity\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|c:\\users\\lenovo\\source\\repos\\smartapi\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1674FCE-89E5-A203-1B6D-0EB101E62646}|smartApi.csproj|solutionrelative:entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\WebApplication3\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\smartApi\\AccountStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AccountStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\smartApi\\Services\\PasswordHashResult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\PasswordHashResult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\smartApi\\Services\\IPasswordHasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\IPasswordHasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\smartApi\\Services\\PasswordHasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\PasswordHasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\ProfileService.cs",
+              "RelativeDocumentMoniker": "Authentication\\Services\\ProfileService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\ProfileService.cs",
+              "RelativeToolTip": "Authentication\\Services\\ProfileService.cs",
+              "ViewState": "AgIAABoBAAAAAAAAAAAAwDoBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T21:26:58.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResetPasswordRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\ResetPasswordRequestDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Requests\\ResetPasswordRequestDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\ResetPasswordRequestDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Requests\\ResetPasswordRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T21:26:11.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Authentication\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Authentication\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAcwJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T19:56:53.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Authentication\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Authentication\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAANsCAAAAAAAAAAAQwOgCAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T15:29:14.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangePasswordRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Profile\\Requests\\ChangePasswordRequestDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Profile\\Requests\\ChangePasswordRequestDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Profile\\Requests\\ChangePasswordRequestDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Profile\\Requests\\ChangePasswordRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T20:39:08.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateProfileRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Profile\\Requests\\UpdateProfileRequestDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Profile\\Requests\\UpdateProfileRequestDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Profile\\Requests\\UpdateProfileRequestDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Profile\\Requests\\UpdateProfileRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T20:39:28.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ForgotPasswordRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\ForgotPasswordRequestDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Requests\\ForgotPasswordRequestDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\ForgotPasswordRequestDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Requests\\ForgotPasswordRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T13:30:08.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyProfileResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Profile\\Responses\\MyProfileResponseDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Profile\\Responses\\MyProfileResponseDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Profile\\Responses\\MyProfileResponseDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Profile\\Responses\\MyProfileResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T20:40:28.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChangePasswordResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Profile\\Responses\\ChangePasswordResponseDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Profile\\Responses\\ChangePasswordResponseDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Profile\\Responses\\ChangePasswordResponseDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Profile\\Responses\\ChangePasswordResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T20:39:47.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RefreshTokenConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\RefreshTokenConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\RefreshTokenConfiguration.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\RefreshTokenConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\RefreshTokenConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T14:58:18.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvyYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T19:31:30.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Entity\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\RefreshToken.cs",
+              "RelativeToolTip": "Entity\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T14:53:56.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginChallengeStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Enums\\LoginChallengeStatus.cs",
+              "RelativeDocumentMoniker": "Enums\\LoginChallengeStatus.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Enums\\LoginChallengeStatus.cs",
+              "RelativeToolTip": "Enums\\LoginChallengeStatus.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T19:52:31.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAF0CAAAAAAAAAAAAAGsCAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T12:59:12.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20260719090904_AddRefreshTokenUserSessionRelationship.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Migrations\\20260719090904_AddRefreshTokenUserSessionRelationship.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260719090904_AddRefreshTokenUserSessionRelationship.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Migrations\\20260719090904_AddRefreshTokenUserSessionRelationship.cs",
+              "RelativeToolTip": "Migrations\\20260719090904_AddRefreshTokenUserSessionRelationship.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAgwFEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T09:13:28.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserSessionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\UserSessionConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\UserSessionConfiguration.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\UserSessionConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\UserSessionConfiguration.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAQwJkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T05:37:03.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\UserSession.cs",
+              "RelativeDocumentMoniker": "Entity\\UserSession.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\UserSession.cs",
+              "RelativeToolTip": "Entity\\UserSession.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T05:31:32.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Enums\\AccountStatus.cs",
+              "RelativeDocumentMoniker": "Enums\\AccountStatus.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Enums\\AccountStatus.cs",
+              "RelativeToolTip": "Enums\\AccountStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T09:03:26.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "Entity\\User.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\User.cs",
+              "RelativeToolTip": "Entity\\User.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T19:26:20.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvw4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-28T19:47:13.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CurrentUserHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Device_Information\\CurrentUserHelper.cs",
+              "RelativeDocumentMoniker": "Utility\\Device_Information\\CurrentUserHelper.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Device_Information\\CurrentUserHelper.cs",
+              "RelativeToolTip": "Utility\\Device_Information\\CurrentUserHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T13:49:32.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Authentication\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Authentication\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T08:24:51.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Authentication\\Repositories\\Interface\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "Authentication\\Repositories\\Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T08:24:43.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Authentication\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\AuthService.cs",
+              "RelativeToolTip": "Authentication\\Services\\AuthService.cs",
+              "ViewState": "AgIAADcPAAAAAAAAAAAYwBUPAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T10:45:13.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Authentication\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Authentication\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAIwBoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T10:45:11.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RequestInformationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Device_Information\\RequestInformationHelper.cs",
+              "RelativeDocumentMoniker": "Utility\\Device_Information\\RequestInformationHelper.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Device_Information\\RequestInformationHelper.cs",
+              "RelativeToolTip": "Utility\\Device_Information\\RequestInformationHelper.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAzwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T13:48:39.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DeviceFingerprintHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Device_Information\\DeviceFingerprintHelper.cs",
+              "RelativeDocumentMoniker": "Utility\\Device_Information\\DeviceFingerprintHelper.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Device_Information\\DeviceFingerprintHelper.cs",
+              "RelativeToolTip": "Utility\\Device_Information\\DeviceFingerprintHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T13:48:08.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DeviceInformationParser.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Device_Information\\DeviceInformationParser.cs",
+              "RelativeDocumentMoniker": "Utility\\Device_Information\\DeviceInformationParser.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Device_Information\\DeviceInformationParser.cs",
+              "RelativeToolTip": "Utility\\Device_Information\\DeviceInformationParser.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T13:46:39.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DeviceInformationModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Device_Information\\DeviceInformationModel.cs",
+              "RelativeDocumentMoniker": "Utility\\Device_Information\\DeviceInformationModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Device_Information\\DeviceInformationModel.cs",
+              "RelativeToolTip": "Utility\\Device_Information\\DeviceInformationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T13:46:08.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginActivityResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\LoginActivityResponseDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Responses\\LoginActivityResponseDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\LoginActivityResponseDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Responses\\LoginActivityResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAFB7wA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T13:32:18.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PagedLoginActivityResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\PagedLoginActivityResponseDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Responses\\PagedLoginActivityResponseDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\PagedLoginActivityResponseDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Responses\\PagedLoginActivityResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T13:33:06.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserSessionResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\UserSessionResponse.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Responses\\UserSessionResponse.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\UserSessionResponse.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Responses\\UserSessionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T11:22:25.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "VerifyRegisterOtpRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\VerifyRegisterOtpRequestDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Requests\\VerifyRegisterOtpRequestDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\VerifyRegisterOtpRequestDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Requests\\VerifyRegisterOtpRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T03:49:39.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "VerifyLoginOtpRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\VerifyLoginOtpRequestDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Requests\\VerifyLoginOtpRequestDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\VerifyLoginOtpRequestDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Requests\\VerifyLoginOtpRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T20:49:59.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RevokeSessionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\RevokeSessionRequest.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Requests\\RevokeSessionRequest.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\RevokeSessionRequest.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Requests\\RevokeSessionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T11:23:09.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Requests\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\RegisterRequestDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Requests\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T06:46:46.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LogoutRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\LogoutRequestDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Requests\\LogoutRequestDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\LogoutRequestDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Requests\\LogoutRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T10:32:52.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Requests\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\LoginRequestDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Requests\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T06:50:52.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LoginActivityQueryRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\LoginActivityQueryRequestDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Requests\\LoginActivityQueryRequestDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\LoginActivityQueryRequestDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Requests\\LoginActivityQueryRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T13:29:27.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "smartApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\smartApi.csproj",
+              "RelativeDocumentMoniker": "smartApi.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\smartApi.csproj",
+              "RelativeToolTip": "smartApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-18T11:09:21.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20260718054911_AddSessionDeviceLoginActivityManagement.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Migrations\\20260718054911_AddSessionDeviceLoginActivityManagement.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260718054911_AddSessionDeviceLoginActivityManagement.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Migrations\\20260718054911_AddSessionDeviceLoginActivityManagement.cs",
+              "RelativeToolTip": "Migrations\\20260718054911_AddSessionDeviceLoginActivityManagement.cs",
+              "ViewState": "AgIAABcBAAAAAAAAAAAYwC8BAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T05:49:33.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LoginActivityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\LoginActivityConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\LoginActivityConfiguration.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\LoginActivityConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\LoginActivityConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T05:37:45.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\UserConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:35:19.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserDeviceConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\UserDeviceConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\UserDeviceConfiguration.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\UserDeviceConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\UserDeviceConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T05:35:45.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginActivity.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\LoginActivity.cs",
+              "RelativeDocumentMoniker": "Entity\\LoginActivity.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\LoginActivity.cs",
+              "RelativeToolTip": "Entity\\LoginActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T05:32:14.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserDevice.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\UserDevice.cs",
+              "RelativeDocumentMoniker": "Entity\\UserDevice.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\UserDevice.cs",
+              "RelativeToolTip": "Entity\\UserDevice.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T05:30:28.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoginChallenge.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\LoginChallenge.cs",
+              "RelativeDocumentMoniker": "Entity\\LoginChallenge.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\LoginChallenge.cs",
+              "RelativeToolTip": "Entity\\LoginChallenge.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T19:55:08.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Configurations\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Utility\\Configurations\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Configurations\\JwtSettings.cs",
+              "RelativeToolTip": "Utility\\Configurations\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T03:29:24.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Authentication\\Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "Authentication\\Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T03:40:18.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Authentication\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\EmailService.cs",
+              "RelativeToolTip": "Authentication\\Services\\EmailService.cs",
+              "ViewState": "AgIAAFIEAAAAAAAAAAAkwHoEAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T03:41:44.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Configurations\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Utility\\Configurations\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Configurations\\EmailSettings.cs",
+              "RelativeToolTip": "Utility\\Configurations\\EmailSettings.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T03:22:08.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "LoginChallengeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\LoginChallengeConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\LoginChallengeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\LoginChallengeConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\LoginChallengeConfiguration.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAiwMEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T20:09:31.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "OtpService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\OtpService.cs",
+              "RelativeDocumentMoniker": "Authentication\\Services\\OtpService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\OtpService.cs",
+              "RelativeToolTip": "Authentication\\Services\\OtpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T03:44:03.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IOtpService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\Interfaces\\IOtpService.cs",
+              "RelativeDocumentMoniker": "Authentication\\Services\\Interfaces\\IOtpService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\Interfaces\\IOtpService.cs",
+              "RelativeToolTip": "Authentication\\Services\\Interfaces\\IOtpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T03:43:06.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ResendLoginOtpResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\ResendLoginOtpResponseDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Responses\\ResendLoginOtpResponseDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\ResendLoginOtpResponseDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Responses\\ResendLoginOtpResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T20:53:28.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LoginStep1ResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\LoginStep1ResponseDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Responses\\LoginStep1ResponseDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\LoginStep1ResponseDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Responses\\LoginStep1ResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T20:49:05.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ResendLoginOtpRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\ResendLoginOtpRequestDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Requests\\ResendLoginOtpRequestDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\ResendLoginOtpRequestDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Requests\\ResendLoginOtpRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T20:51:07.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "TwoFactorAuthenticationOptions.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Configurations\\TwoFactorAuthenticationOptions.cs",
+              "RelativeDocumentMoniker": "Utility\\Configurations\\TwoFactorAuthenticationOptions.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Configurations\\TwoFactorAuthenticationOptions.cs",
+              "RelativeToolTip": "Utility\\Configurations\\TwoFactorAuthenticationOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T20:43:29.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "EmailOtpTokenConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\EmailOtpTokenConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\EmailOtpTokenConfiguration.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\EmailOtpTokenConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\EmailOtpTokenConfiguration.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAiwIUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T17:55:37.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\RoleConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\RoleConfiguration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:36:10.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "email_otp_tokens.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\email_otp_tokens.cs",
+              "RelativeDocumentMoniker": "Entity\\email_otp_tokens.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\email_otp_tokens.cs",
+              "RelativeToolTip": "Entity\\email_otp_tokens.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T17:53:21.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Authentication\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\TokenService.cs",
+              "RelativeToolTip": "Authentication\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T03:35:23.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Authentication\\Services\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\Services\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "Authentication\\Services\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T03:34:23.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "VerifyRegisterOtpResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\VerifyRegisterOtpResponseDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Responses\\VerifyRegisterOtpResponseDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\VerifyRegisterOtpResponseDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Responses\\VerifyRegisterOtpResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T03:51:59.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "RegisterResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\RegisterResponseDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Responses\\RegisterResponseDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\RegisterResponseDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Responses\\RegisterResponseDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T06:51:50.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "TokenResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\TokenResponseDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Responses\\TokenResponseDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\TokenResponseDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Responses\\TokenResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T03:30:43.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "LogoutResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\LogoutResponseDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Responses\\LogoutResponseDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\LogoutResponseDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Responses\\LogoutResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T10:35:16.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "UserResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Users\\UserResponseDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Users\\UserResponseDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Users\\UserResponseDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Users\\UserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T16:50:28.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Responses\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Responses\\LoginResponseDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Responses\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T06:52:07.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "RefreshTokenRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\RefreshTokenRequestDto.cs",
+              "RelativeDocumentMoniker": "Authentication\\DTOs\\Auth\\Requests\\RefreshTokenRequestDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Authentication\\DTOs\\Auth\\Requests\\RefreshTokenRequestDto.cs",
+              "RelativeToolTip": "Authentication\\DTOs\\Auth\\Requests\\RefreshTokenRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T03:32:14.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Common\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Common\\BadRequestException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Common\\BadRequestException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Common\\BadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T07:29:46.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Handlers\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Handlers\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Handlers\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "ExceptionHandling\\Handlers\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T18:55:13.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "PasswordHashResult.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\PasswordHasher_Security\\PasswordHashResult.cs",
+              "RelativeDocumentMoniker": "Utility\\PasswordHasher_Security\\PasswordHashResult.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\PasswordHasher_Security\\PasswordHashResult.cs",
+              "RelativeToolTip": "Utility\\PasswordHasher_Security\\PasswordHashResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T18:47:46.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\PasswordHasher_Security\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Utility\\PasswordHasher_Security\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\PasswordHasher_Security\\PasswordHasher.cs",
+              "RelativeToolTip": "Utility\\PasswordHasher_Security\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T18:48:13.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\PasswordHasher_Security\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "Utility\\PasswordHasher_Security\\IPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\PasswordHasher_Security\\IPasswordHasher.cs",
+              "RelativeToolTip": "Utility\\PasswordHasher_Security\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T17:57:54.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ErrorProblemDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Models\\ErrorProblemDetails.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Models\\ErrorProblemDetails.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Models\\ErrorProblemDetails.cs",
+              "RelativeToolTip": "ExceptionHandling\\Models\\ErrorProblemDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T11:15:02.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ValidationException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Domain\\ValidationException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Domain\\ValidationException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Domain\\ValidationException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Domain\\ValidationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T19:26:20.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Common_API_Response\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Utility\\Common_API_Response\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Utility\\Common_API_Response\\ApiResponse.cs",
+              "RelativeToolTip": "Utility\\Common_API_Response\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T17:57:44.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "ErrorMessages.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Constants\\ErrorMessages.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Constants\\ErrorMessages.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Constants\\ErrorMessages.cs",
+              "RelativeToolTip": "ExceptionHandling\\Constants\\ErrorMessages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T04:14:29.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ErrorCodes.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Constants\\ErrorCodes.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Constants\\ErrorCodes.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Constants\\ErrorCodes.cs",
+              "RelativeToolTip": "ExceptionHandling\\Constants\\ErrorCodes.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T04:14:27.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "InfrastructureExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Handlers\\InfrastructureExceptionHandler.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Handlers\\InfrastructureExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Handlers\\InfrastructureExceptionHandler.cs",
+              "RelativeToolTip": "ExceptionHandling\\Handlers\\InfrastructureExceptionHandler.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T04:09:05.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "SecurityExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Handlers\\SecurityExceptionHandler.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Handlers\\SecurityExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Handlers\\SecurityExceptionHandler.cs",
+              "RelativeToolTip": "ExceptionHandling\\Handlers\\SecurityExceptionHandler.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T04:08:41.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "ValidationExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Handlers\\ValidationExceptionHandler.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Handlers\\ValidationExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Handlers\\ValidationExceptionHandler.cs",
+              "RelativeToolTip": "ExceptionHandling\\Handlers\\ValidationExceptionHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA/wDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T04:06:43.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "DomainExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Handlers\\DomainExceptionHandler.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Handlers\\DomainExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Handlers\\DomainExceptionHandler.cs",
+              "RelativeToolTip": "ExceptionHandling\\Handlers\\DomainExceptionHandler.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T04:03:58.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "UnauthorizedException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Common\\UnauthorizedException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Common\\UnauthorizedException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Common\\UnauthorizedException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Common\\UnauthorizedException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T07:31:28.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "AppException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Base\\AppException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Base\\AppException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Base\\AppException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Base\\AppException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T07:29:20.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "DatabaseException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Infrastructure\\DatabaseException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Infrastructure\\DatabaseException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Infrastructure\\DatabaseException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Infrastructure\\DatabaseException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T03:55:34.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "AuthenticationException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Security\\AuthenticationException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Security\\AuthenticationException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Security\\AuthenticationException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Security\\AuthenticationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T19:37:45.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Common\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Common\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Common\\NotFoundException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Common\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T07:30:12.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "ForbiddenException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Common\\ForbiddenException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Common\\ForbiddenException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Common\\ForbiddenException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Common\\ForbiddenException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T19:10:59.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "ConflictException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Common\\ConflictException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Common\\ConflictException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Common\\ConflictException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Common\\ConflictException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T07:30:59.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Domain\\DomainException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Domain\\DomainException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Domain\\DomainException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Domain\\DomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T19:25:24.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "BusinessRuleException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Domain\\BusinessRuleException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Domain\\BusinessRuleException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Domain\\BusinessRuleException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Domain\\BusinessRuleException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T19:25:53.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ExternalServiceException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Infrastructure\\ExternalServiceException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Infrastructure\\ExternalServiceException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Infrastructure\\ExternalServiceException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Infrastructure\\ExternalServiceException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T03:55:37.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "InfrastructureException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Infrastructure\\InfrastructureException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Infrastructure\\InfrastructureException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Infrastructure\\InfrastructureException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Infrastructure\\InfrastructureException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T03:55:40.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "AuthorizationException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Security\\AuthorizationException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Security\\AuthorizationException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Security\\AuthorizationException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Security\\AuthorizationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T19:38:10.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "SecurityException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Security\\SecurityException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\Exceptions\\Security\\SecurityException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\ExceptionHandling\\Exceptions\\Security\\SecurityException.cs",
+              "RelativeToolTip": "ExceptionHandling\\Exceptions\\Security\\SecurityException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T19:37:15.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "PasswordHashResult.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Services\\PasswordHashResult.cs",
+              "RelativeDocumentMoniker": "Services\\PasswordHashResult.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Services\\PasswordHashResult.cs",
+              "RelativeToolTip": "Services\\PasswordHashResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T05:04:00.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Services\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "Services\\IPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Services\\IPasswordHasher.cs",
+              "RelativeToolTip": "Services\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T04:42:44.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Services\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Services\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Services\\PasswordHasher.cs",
+              "RelativeToolTip": "Services\\PasswordHasher.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T04:42:13.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "UserCredential.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\UserCredential.cs",
+              "RelativeDocumentMoniker": "Entity\\UserCredential.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\UserCredential.cs",
+              "RelativeToolTip": "Entity\\UserCredential.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T19:27:12.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "20260630135426_configuratio_divide.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Migrations\\20260630135426_configuratio_divide.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260630135426_configuratio_divide.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Migrations\\20260630135426_configuratio_divide.cs",
+              "RelativeToolTip": "Migrations\\20260630135426_configuratio_divide.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T13:54:27.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "UserCredentialConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\UserCredentialConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\UserCredentialConfiguration.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\UserCredentialConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\UserCredentialConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:35:43.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "UserRoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\UserRoleConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configuration\\UserRoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Data\\Configuration\\UserRoleConfiguration.cs",
+              "RelativeToolTip": "Data\\Configuration\\UserRoleConfiguration.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:36:34.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\UserRole.cs",
+              "RelativeDocumentMoniker": "Entity\\UserRole.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\UserRole.cs",
+              "RelativeToolTip": "Entity\\UserRole.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAIBQwB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T19:29:16.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\Role.cs",
+              "RelativeDocumentMoniker": "Entity\\Role.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\Entity\\Role.cs",
+              "RelativeToolTip": "Entity\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T19:28:10.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "AccountStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\AccountStatus.cs",
+              "RelativeDocumentMoniker": "AccountStatus.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\smartApi\\AccountStatus.cs",
+              "RelativeToolTip": "AccountStatus.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T19:24:14.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\WebApplication3\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\WebApplication3\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\WebApplication3\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\WebApplication3\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T18:57:39.581Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
