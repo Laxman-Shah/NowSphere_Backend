@@ -1,12 +1,13 @@
-FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0-noble AS build
 WORKDIR /src
 
-COPY . .
-
+COPY ["smartApi.csproj", "./"]
 RUN dotnet restore "smartApi.csproj"
+
+COPY . .
 RUN dotnet publish "smartApi.csproj" -c Release -o /app/publish --no-restore
 
-FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:10.0-noble AS final
 WORKDIR /app
 
 COPY --from=build /app/publish .
