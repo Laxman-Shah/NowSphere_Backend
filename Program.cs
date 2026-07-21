@@ -39,7 +39,7 @@ var jwtSettings = builder.Configuration
     .GetSection("Jwt")
     .Get<JwtSettings>();
 
-if (jwtSettings == null)
+if (jwtSettings is null)
 {
     throw new InvalidOperationException(
         "JWT settings are missing."
@@ -152,10 +152,6 @@ builder.Services.AddAuthentication(options =>
                     )
                 ),
 
-            /*
-             * Access tokens become invalid immediately after
-             * their expiration time.
-             */
             ClockSkew = TimeSpan.Zero
         };
 });
@@ -645,11 +641,6 @@ if (applyMigrations)
             "Database migration failed during application startup."
         );
 
-        /*
-         * Stop application startup if migrations fail.
-         * This prevents the API from running with an incomplete
-         * or invalid database schema.
-         */
         throw;
     }
 }
@@ -672,9 +663,8 @@ if (app.Environment.IsDevelopment())
 app.UseExceptionHandler();
 
 /*
- * Render terminates HTTPS before forwarding the request to the
- * container. HTTPS redirection is useful during local development,
- * but it causes an unnecessary warning inside the Render container.
+ * Render manages HTTPS outside the application container.
+ * HTTPS redirection is used only while developing locally.
  */
 if (app.Environment.IsDevelopment())
 {
@@ -704,7 +694,7 @@ static string GetRateLimitPartitionKey(
     HttpContext httpContext,
     string policyPrefix)
 {
-    string ipAddress =
+    var ipAddress =
         httpContext.Connection
             .RemoteIpAddress?
             .ToString()
