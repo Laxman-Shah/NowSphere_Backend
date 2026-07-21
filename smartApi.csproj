@@ -25,17 +25,13 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design"
                       Version="10.0.10">
       <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>
-        runtime; build; native; contentfiles; analyzers; buildtransitive
-      </IncludeAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
 
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools"
                       Version="10.0.10">
       <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>
-        runtime; build; native; contentfiles; analyzers; buildtransitive
-      </IncludeAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
 
     <PackageReference Include="Microsoft.OpenApi"
@@ -49,4 +45,4 @@
   </ItemGroup>
 
 </Project>
-`
+``
