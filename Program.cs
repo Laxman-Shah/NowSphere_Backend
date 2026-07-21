@@ -35,10 +35,9 @@ builder.Services.Configure<JwtSettings>(
     builder.Configuration.GetSection("Jwt")
 );
 
-var jwtSettings =
-    builder.Configuration
-        .GetSection("Jwt")
-        .Get<JwtSettings>();
+var jwtSettings = builder.Configuration
+    .GetSection("Jwt")
+    .Get<JwtSettings>();
 
 if (jwtSettings == null)
 {
@@ -142,11 +141,9 @@ builder.Services.AddAuthentication(options =>
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
 
-            ValidIssuer =
-                jwtSettings.Issuer,
+            ValidIssuer = jwtSettings.Issuer,
 
-            ValidAudience =
-                jwtSettings.Audience,
+            ValidAudience = jwtSettings.Audience,
 
             IssuerSigningKey =
                 new SymmetricSecurityKey(
@@ -205,25 +202,15 @@ builder.Services
 
 builder.Services.AddRateLimiter(options =>
 {
-    /*
-     * Default status code returned when a request exceeds
-     * a rate-limit policy.
-     */
     options.RejectionStatusCode =
         StatusCodes.Status429TooManyRequests;
 
-    /*
-     * Custom response returned for rate-limited requests.
-     */
     options.OnRejected = async (
         context,
         cancellationToken) =>
     {
         var retryAfterSeconds = 60;
 
-        /*
-         * Some limiters provide RetryAfter metadata.
-         */
         if (context.Lease.TryGetMetadata(
             MetadataName.RetryAfter,
             out var retryAfter))
@@ -269,8 +256,6 @@ builder.Services.AddRateLimiter(options =>
 
     // ========================================================
     // LOGIN PASSWORD POLICY
-    //
-    // Applied to:
     // POST /api/auth/login
     // ========================================================
 
@@ -290,10 +275,6 @@ builder.Services.AddRateLimiter(options =>
                     _ =>
                         new FixedWindowRateLimiterOptions
                         {
-                            /*
-                             * Maximum five login requests from
-                             * one IP address every minute.
-                             */
                             PermitLimit = 5,
 
                             Window =
@@ -314,8 +295,6 @@ builder.Services.AddRateLimiter(options =>
 
     // ========================================================
     // LOGIN OTP VERIFICATION POLICY
-    //
-    // Applied to:
     // POST /api/auth/login/verify-otp
     // ========================================================
 
@@ -335,13 +314,6 @@ builder.Services.AddRateLimiter(options =>
                     _ =>
                         new FixedWindowRateLimiterOptions
                         {
-                            /*
-                             * The endpoint limiter protects
-                             * the API.
-                             *
-                             * The OTP database record separately
-                             * enforces MaxAttempts for a challenge.
-                             */
                             PermitLimit = 10,
 
                             Window =
@@ -362,8 +334,6 @@ builder.Services.AddRateLimiter(options =>
 
     // ========================================================
     // LOGIN OTP RESEND POLICY
-    //
-    // Applied to:
     // POST /api/auth/login/resend-otp
     // ========================================================
 
@@ -383,15 +353,6 @@ builder.Services.AddRateLimiter(options =>
                     _ =>
                         new FixedWindowRateLimiterOptions
                         {
-                            /*
-                             * Maximum five resend requests from
-                             * one IP address every ten minutes.
-                             *
-                             * AuthService also enforces:
-                             *
-                             * - Resend cooldown
-                             * - Maximum resend count
-                             */
                             PermitLimit = 5,
 
                             Window =
@@ -412,8 +373,6 @@ builder.Services.AddRateLimiter(options =>
 
     // ========================================================
     // FORGOT PASSWORD POLICY
-    //
-    // Applied to:
     // POST /api/auth/forgot-password
     // ========================================================
 
@@ -433,11 +392,6 @@ builder.Services.AddRateLimiter(options =>
                     _ =>
                         new FixedWindowRateLimiterOptions
                         {
-                            /*
-                             * Maximum three forgot-password
-                             * requests from one IP address every
-                             * fifteen minutes.
-                             */
                             PermitLimit = 3,
 
                             Window =
@@ -458,8 +412,6 @@ builder.Services.AddRateLimiter(options =>
 
     // ========================================================
     // RESET PASSWORD POLICY
-    //
-    // Applied to:
     // POST /api/auth/reset-password
     // ========================================================
 
@@ -479,11 +431,6 @@ builder.Services.AddRateLimiter(options =>
                     _ =>
                         new FixedWindowRateLimiterOptions
                         {
-                            /*
-                             * Maximum five password-reset attempts
-                             * from one IP address every fifteen
-                             * minutes.
-                             */
                             PermitLimit = 5,
 
                             Window =
@@ -507,18 +454,6 @@ builder.Services.AddRateLimiter(options =>
 // HTTP CONTEXT ACCESS
 // ============================================================
 
-/*
- * IHttpContextAccessor allows helper classes and AuthService
- * dependencies to safely access the current HttpContext.
- *
- * It is used for:
- *
- * - Reading the client IP address
- * - Reading User-Agent
- * - Reading X-Device-Id
- * - Reading authenticated user claims
- * - Reading the current sid session claim
- */
 builder.Services.AddHttpContextAccessor();
 
 
@@ -536,17 +471,6 @@ builder.Services.AddScoped<
 // REPOSITORY
 // ============================================================
 
-/*
- * The existing UserRepository manages user-related authentication
- * data, including:
- *
- * - Users
- * - User devices
- * - User sessions
- * - Login activities
- *
- * Separate repositories are not registered for the new tables.
- */
 builder.Services.AddScoped<
     IUserRepository,
     UserRepository
@@ -558,36 +482,29 @@ builder.Services.AddScoped<
 // ============================================================
 
 builder.Services.AddScoped<
-    smartApi.Authentication.Services.Interfaces.IAuthService,
-    smartApi.Authentication.Services.AuthService
+    IAuthService,
+    AuthService
 >();
 
 builder.Services.AddScoped<
-    smartApi.Authentication.Services.Interfaces.IProfileService,
-    smartApi.Authentication.Services.ProfileService
+    IProfileService,
+    ProfileService
 >();
 
 builder.Services.AddScoped<
-    smartApi.Authentication.Services.Interfaces.ITokenService,
-    smartApi.Authentication.Services.TokenService
+    ITokenService,
+    TokenService
 >();
 
 builder.Services.AddScoped<
-    smartApi.Authentication.Services.Interfaces.IOtpService,
-    smartApi.Authentication.Services.OtpService
+    IOtpService,
+    OtpService
 >();
-
 
 
 // ============================================================
-// SESSION, DEVICE, AND REQUEST HELPER CLASSES
+// SESSION, DEVICE, AND REQUEST HELPERS
 // ============================================================
-
-/*
- * These helper classes support AuthService.
- *
- * No separate service interfaces are required for these helpers.
- */
 
 builder.Services.AddScoped<
     RequestInformationHelper
@@ -664,6 +581,81 @@ var app = builder.Build();
 
 
 // ============================================================
+// DATABASE MIGRATIONS
+// ============================================================
+
+var applyMigrations = string.Equals(
+    Environment.GetEnvironmentVariable(
+        "APPLY_MIGRATIONS"
+    ),
+    "true",
+    StringComparison.OrdinalIgnoreCase
+);
+
+if (applyMigrations)
+{
+    using var scope = app.Services.CreateScope();
+
+    try
+    {
+        app.Logger.LogInformation(
+            "Checking for pending database migrations."
+        );
+
+        var dbContext = scope.ServiceProvider
+            .GetRequiredService<ApplicationDbContext>();
+
+        var pendingMigrations = (
+            await dbContext.Database
+                .GetPendingMigrationsAsync()
+        ).ToList();
+
+        if (pendingMigrations.Count > 0)
+        {
+            app.Logger.LogInformation(
+                "Applying {MigrationCount} pending database migrations.",
+                pendingMigrations.Count
+            );
+
+            foreach (var migration in pendingMigrations)
+            {
+                app.Logger.LogInformation(
+                    "Pending migration: {MigrationName}",
+                    migration
+                );
+            }
+
+            await dbContext.Database.MigrateAsync();
+
+            app.Logger.LogInformation(
+                "Database migrations completed successfully."
+            );
+        }
+        else
+        {
+            app.Logger.LogInformation(
+                "No pending database migrations were found."
+            );
+        }
+    }
+    catch (Exception exception)
+    {
+        app.Logger.LogCritical(
+            exception,
+            "Database migration failed during application startup."
+        );
+
+        /*
+         * Stop application startup if migrations fail.
+         * This prevents the API from running with an incomplete
+         * or invalid database schema.
+         */
+        throw;
+    }
+}
+
+
+// ============================================================
 // DEVELOPMENT OPENAPI
 // ============================================================
 
@@ -677,40 +669,26 @@ if (app.Environment.IsDevelopment())
 // HTTP REQUEST PIPELINE
 // ============================================================
 
-/*
- * Global exception handling should run early so exceptions
- * generated by later middleware and controllers can be handled.
- */
 app.UseExceptionHandler();
 
-app.UseHttpsRedirection();
-
 /*
- * Endpoint routing is enabled before middleware that reads
- * endpoint metadata, including named rate-limit policies.
+ * Render terminates HTTPS before forwarding the request to the
+ * container. HTTPS redirection is useful during local development,
+ * but it causes an unnecessary warning inside the Render container.
  */
+if (app.Environment.IsDevelopment())
+{
+    app.UseHttpsRedirection();
+}
+
 app.UseRouting();
 
 app.UseCors("FrontendPolicy");
 
-/*
- * Authentication must run before authorization.
- *
- * Authentication validates the JWT and creates HttpContext.User.
- */
 app.UseAuthentication();
 
-/*
- * Rate limiting runs before controller actions execute.
- *
- * EnableRateLimiting attributes on controller actions select
- * the appropriate named policies.
- */
 app.UseRateLimiter();
 
-/*
- * Authorization checks Authorize attributes and access rules.
- */
 app.UseAuthorization();
 
 app.MapControllers();
@@ -732,17 +710,5 @@ static string GetRateLimitPartitionKey(
             .ToString()
         ?? "unknown";
 
-    /*
-     * The policy prefix prevents different endpoints from
-     * sharing the same rate-limit counter.
-     *
-     * Examples:
-     *
-     * login-password:127.0.0.1
-     * login-otp:127.0.0.1
-     * login-resend:127.0.0.1
-     * forgot-password:127.0.0.1
-     * reset-password:127.0.0.1
-     */
     return $"{policyPrefix}:{ipAddress}";
 }
